@@ -3,7 +3,7 @@ Este trabalho trata da avaliação do algoritmo de Monte Carlo da biblioteca [Nu
 
 ## Instalando o Numcosmo
 
-Um dos primeiros desafios para a avaliação do algoritmo de Monte Carlo foi a instalação da biblioteca Numcosmo, devido a falta de documentação de dependências necessárias para a sua instalação e execução. Para facilitar a replicação dos testes, foi criado um (script)[https://raw.githubusercontent.com/vconrado/cap-379/master/docker/numcosmo/files/install_numcosmo.sh] e um [Docker](http://www.docker.com) ([Como instalar no Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/como-instalar-e-usar-o-docker-no-ubuntu-16-04-pt))com o Numcosmo configurado.
+Um dos primeiros desafios para a avaliação do algoritmo de Monte Carlo foi a instalação da biblioteca Numcosmo, devido a falta de documentação de dependências necessárias para a sua instalação e execução. Para facilitar a replicação dos testes, foi criado um [script](https://raw.githubusercontent.com/vconrado/cap-379/master/docker/numcosmo/files/install_numcosmo.sh) e um [Docker](http://www.docker.com) ([Como instalar no Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/como-instalar-e-usar-o-docker-no-ubuntu-16-04-pt))com o Numcosmo configurado.
 O docker é criado a partir do script de instalação. Neste script, é cria um usuário **numcosmo** (senha *numcosmo*) e feita a instalação seguindo as orientações do projeto (Numcosmo)[https://numcosmo.github.io/download/].
 
 Para ter o numcosmo rodando na sua máquina, utilize uma das soluções abaixo:
