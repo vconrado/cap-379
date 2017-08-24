@@ -1,5 +1,5 @@
 # Trabalho final da disciplina CAP-379 - Tópicos Avançados em Computação Aplicada
-Este trabalho trata da avaliação do algoritmo de Monte Carlo da biblioteca (Numcosmo)[https://numcosmo.github.io/].
+Este trabalho trata da avaliação do algoritmo de Monte Carlo da biblioteca [Numcosmo](https://numcosmo.github.io/).
 
 
 ## Instalando o Numcosmo
