@@ -3,8 +3,13 @@
 USER_NAME=numcosmo
 USER_PASS=numcosmo
 
-
 export DEBIAN_FRONTEND=noninteractive
+
+
+if [ "$(id -u)" != "0" ]; then
+   echo "This script must be run as root" 1>&2
+   exit 1
+fi
 
 # instalando aplicacoes necessarias
 apt-get update
