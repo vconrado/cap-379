@@ -29,7 +29,7 @@ groupadd $USER_NAME
 useradd $USER_NAME
 echo $USER_NAME:$USER_PASS | chpasswd
 
-echo root:$USER_PASS | chpasswd
+#echo root:$USER_PASS | chpasswd
 
 
 su - $USER_NAME
@@ -45,4 +45,3 @@ exit
 make install
 
 pip install numpy matplotlib scipy
-
