@@ -40,3 +40,9 @@ O exemplo básico pode ser executado da seguinte forma:
 cd /home/numcosmo/cosmology/NumCosmo/examples
 ./example_simple
 ```
+
+Dentro do docker, pode ocorrer erro ao tentar usar a *matplotlib* para gerar gráficos. Inclua a seguinte linha após a importação da *matplotlib*
+
+```python
+matplotlib.use('Agg')
+```
